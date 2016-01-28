@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en-us" >
+<head>
+<title>Change sequence listing | Django site admin</title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css" />
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/static/admin/css/ie.css" /><![endif]-->
+
+<script type="text/javascript">window.__admin_media_prefix__ = "/static/admin/";</script>
+<script type="text/javascript">window.__admin_utc_offset__ = "0";</script>
+
+<script type="text/javascript" src="/admin/jsi18n/"></script>
+<script type="text/javascript" src="/static/admin/js/core.js"></script>
+<script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+<script type="text/javascript" src="/static/admin/js/actions.js"></script>
+<script type="text/javascript" src="/static/admin/js/calendar.js"></script>
+<script type="text/javascript" src="/static/admin/js/admin/DateTimeShortcuts.js"></script>
+<script type="text/javascript" src="/static/admin/js/collapse.js"></script>
+<script type="text/javascript" src="/static/admin/js/inlines.js"></script>
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+
+
+<body class=" app-creator model-sequencelisting change-form">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="/admin/">Django administration</a></h1>
+
+        </div>
+        
+        <div id="user-tools">
+            
+                Welcome,
+                <strong>ad</strong>.
+            
+            
+                
+                
+                
+                <a href="/admin/password_change/">Change password</a> /
+                
+                <a href="/admin/logout/">Log out</a>
+            
+        </div>
+        
+        
+    </div>
+    <!-- END Header -->
+    
+<div class="breadcrumbs">
+<a href="/admin/">Home</a>
+&rsaquo; <a href="/admin/creator/">Creator</a>
+&rsaquo; <a href="/admin/creator/sequencelisting/">Sequence listings</a>
+&rsaquo; Sequence listing file1.xml
+</div>
+
+    
+
+    
+        
+    
+
+    <!-- Content -->
+    <div id="content" class="colM">
+        
+        <h1>Change sequence listing</h1>
+        <div id="content-main">
+
+
+  <ul class="object-tools">
+    
+    <li>
+        
+        <a href="/admin/creator/sequencelisting/3/history/" class="historylink">History</a>
+    </li>
+    
+    
+  </ul>
+
+
+<form enctype="multipart/form-data" action="" method="post" id="sequencelisting_form" novalidate><input type='hidden' name='csrfmiddlewaretoken' value='aRAfciIJSz4GREOSRentI7tio6dI5egw' />
+<div>
+
+
+
+
+
+
+
+  <fieldset class="module aligned collapse">
+    <h2>File information</h2>
+    
+    
+        <div class="form-row field-fileName">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_fileName">File name:</label>
+                        
+                            <input class="vTextField" id="id_fileName" maxlength="100" name="fileName" type="text" value="file1.xml" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-productionDate">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_productionDate">Production date:</label>
+                        
+                            <input class="vDateField" id="id_productionDate" name="productionDate" size="10" type="text" value="2016-01-28" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-dtdVersion">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_dtdVersion">DTD version:</label>
+                        
+                            <input class="vTextField" id="id_dtdVersion" maxlength="10" name="dtdVersion" type="text" value="1.0" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-softwareName">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_softwareName">Software name:</label>
+                        
+                            <input class="vTextField" id="id_softwareName" maxlength="50" name="softwareName" type="text" value="ST26 authoring tool prototype" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-softwareVersion">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_softwareVersion">Software version:</label>
+                        
+                            <input class="vTextField" id="id_softwareVersion" maxlength="100" name="softwareVersion" type="text" value="0.1" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+
+  <fieldset class="module aligned collapse">
+    <h2>General information</h2>
+    
+    
+        <div class="form-row field-applicantFileReference">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_applicantFileReference">Applicant file reference:</label>
+                        
+                            <input class="vTextField" id="id_applicantFileReference" maxlength="30" name="applicantFileReference" type="text" value="EP123" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-IPOfficeCode">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_IPOfficeCode">IP office code:</label>
+                        
+                            <input class="vTextField" id="id_IPOfficeCode" maxlength="2" name="IPOfficeCode" type="text" value="EP" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-applicationNumberText">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_applicationNumberText">Application number text:</label>
+                        
+                            <input class="vTextField" id="id_applicationNumberText" maxlength="20" name="applicationNumberText" type="text" value="1511223344.5" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-filingDate">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_filingDate">Filing date:</label>
+                        
+                            <input class="vDateField" id="id_filingDate" name="filingDate" size="10" type="text" value="2016-01-29" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-earliestPriorityIPOfficeCode">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_earliestPriorityIPOfficeCode">Earliest priority IP office code:</label>
+                        
+                            <input class="vTextField" id="id_earliestPriorityIPOfficeCode" maxlength="2" name="earliestPriorityIPOfficeCode" type="text" value="US" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-earliestPriorityApplicationNumberText">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_earliestPriorityApplicationNumberText">Earliest priority application number text:</label>
+                        
+                            <input class="vTextField" id="id_earliestPriorityApplicationNumberText" maxlength="20" name="earliestPriorityApplicationNumberText" type="text" value="12121212" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-earliestPriorityFilingDate">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_earliestPriorityFilingDate">Earliest priority filing date:</label>
+                        
+                            <input class="vDateField" id="id_earliestPriorityFilingDate" name="earliestPriorityFilingDate" size="10" type="text" value="2015-01-29" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-applicantName">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_applicantName">Applicant name:</label>
+                        
+                            <input class="vTextField" id="id_applicantName" maxlength="200" name="applicantName" type="text" value="applicant1" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-applicantNameLanguageCode">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_applicantNameLanguageCode">Applicant name language code:</label>
+                        
+                            <input class="vTextField" id="id_applicantNameLanguageCode" maxlength="2" name="applicantNameLanguageCode" type="text" value="EN" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-applicantNameLatin">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_applicantNameLatin">Applicant name Latin:</label>
+                        
+                            <input class="vTextField" id="id_applicantNameLatin" maxlength="200" name="applicantNameLatin" type="text" value="applicant1" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-inventorName">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_inventorName">Inventor name:</label>
+                        
+                            <input class="vTextField" id="id_inventorName" maxlength="200" name="inventorName" type="text" value="inventor1" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-inventorNameLanguageCode">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_inventorNameLanguageCode">Inventor name language code:</label>
+                        
+                            <input class="vTextField" id="id_inventorNameLanguageCode" maxlength="2" name="inventorNameLanguageCode" type="text" value="EN" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-inventorNameLatin">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_inventorNameLatin">Inventor name Latin:</label>
+                        
+                            <input class="vTextField" id="id_inventorNameLatin" maxlength="200" name="inventorNameLatin" type="text" value="inventor1" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-sequenceTotalQuantity">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequenceTotalQuantity">Sequence total quantity:</label>
+                        
+                            <input class="vIntegerField" id="id_sequenceTotalQuantity" name="sequenceTotalQuantity" type="text" value="2" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+
+
+
+
+
+
+
+    
+<div class="inline-group" id="title_set-group">
+  <h2>Titles</h2>
+<input id="id_title_set-TOTAL_FORMS" name="title_set-TOTAL_FORMS" type="hidden" value="3" /><input id="id_title_set-INITIAL_FORMS" name="title_set-INITIAL_FORMS" type="hidden" value="2" /><input id="id_title_set-MIN_NUM_FORMS" name="title_set-MIN_NUM_FORMS" type="hidden" value="0" /><input id="id_title_set-MAX_NUM_FORMS" name="title_set-MAX_NUM_FORMS" type="hidden" value="1000" />
+
+
+<div class="inline-related has_original" id="title_set-0">
+  <h3><b>Title:</b>&nbsp;<span class="inline_label">Sequence listing file1.xml / title title1 (EN)</span>
+      
+    <span class="delete"><input id="id_title_set-0-DELETE" name="title_set-0-DELETE" type="checkbox" /> <label class="vCheckboxLabel inline" for="id_title_set-0-DELETE">Delete</label></span>
+  </h3>
+  
+  
+    <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-inventionTitle">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_title_set-0-inventionTitle">Invention title:</label>
+                        
+                            <input class="vTextField" id="id_title_set-0-inventionTitle" maxlength="200" name="title_set-0-inventionTitle" type="text" value="title1" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-inventionTitleLanguageCode">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_title_set-0-inventionTitleLanguageCode">Invention title language code:</label>
+                        
+                            <input class="vTextField" id="id_title_set-0-inventionTitleLanguageCode" maxlength="2" name="title_set-0-inventionTitleLanguageCode" type="text" value="EN" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+  
+  <input id="id_title_set-0-id" name="title_set-0-id" type="hidden" value="15" />
+  <input id="id_title_set-0-sequenceListing" name="title_set-0-sequenceListing" type="hidden" value="3" />
+</div><div class="inline-related has_original" id="title_set-1">
+  <h3><b>Title:</b>&nbsp;<span class="inline_label">Sequence listing file1.xml / title title2 (FR)</span>
+      
+    <span class="delete"><input id="id_title_set-1-DELETE" name="title_set-1-DELETE" type="checkbox" /> <label class="vCheckboxLabel inline" for="id_title_set-1-DELETE">Delete</label></span>
+  </h3>
+  
+  
+    <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-inventionTitle">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_title_set-1-inventionTitle">Invention title:</label>
+                        
+                            <input class="vTextField" id="id_title_set-1-inventionTitle" maxlength="200" name="title_set-1-inventionTitle" type="text" value="title2" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-inventionTitleLanguageCode">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_title_set-1-inventionTitleLanguageCode">Invention title language code:</label>
+                        
+                            <input class="vTextField" id="id_title_set-1-inventionTitleLanguageCode" maxlength="2" name="title_set-1-inventionTitleLanguageCode" type="text" value="FR" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+  
+  <input id="id_title_set-1-id" name="title_set-1-id" type="hidden" value="16" />
+  <input id="id_title_set-1-sequenceListing" name="title_set-1-sequenceListing" type="hidden" value="3" />
+</div><div class="inline-related" id="title_set-2">
+  <h3><b>Title:</b>&nbsp;<span class="inline_label">#3</span>
+      
+    
+  </h3>
+  
+  
+    <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-inventionTitle">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_title_set-2-inventionTitle">Invention title:</label>
+                        
+                            <input class="vTextField" id="id_title_set-2-inventionTitle" maxlength="200" name="title_set-2-inventionTitle" type="text" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-inventionTitleLanguageCode">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_title_set-2-inventionTitleLanguageCode">Invention title language code:</label>
+                        
+                            <input class="vTextField" id="id_title_set-2-inventionTitleLanguageCode" maxlength="2" name="title_set-2-inventionTitleLanguageCode" type="text" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+  
+  <input id="id_title_set-2-id" name="title_set-2-id" type="hidden" />
+  <input id="id_title_set-2-sequenceListing" name="title_set-2-sequenceListing" type="hidden" value="3" />
+</div><div class="inline-related empty-form last-related" id="title_set-empty">
+  <h3><b>Title:</b>&nbsp;<span class="inline_label">#4</span>
+      
+    
+  </h3>
+  
+  
+    <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-inventionTitle">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_title_set-__prefix__-inventionTitle">Invention title:</label>
+                        
+                            <input class="vTextField" id="id_title_set-__prefix__-inventionTitle" maxlength="200" name="title_set-__prefix__-inventionTitle" type="text" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-inventionTitleLanguageCode">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_title_set-__prefix__-inventionTitleLanguageCode">Invention title language code:</label>
+                        
+                            <input class="vTextField" id="id_title_set-__prefix__-inventionTitleLanguageCode" maxlength="2" name="title_set-__prefix__-inventionTitleLanguageCode" type="text" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+  
+  <input id="id_title_set-__prefix__-id" name="title_set-__prefix__-id" type="hidden" />
+  <input id="id_title_set-__prefix__-sequenceListing" name="title_set-__prefix__-sequenceListing" type="hidden" value="3" />
+</div>
+</div>
+
+<script type="text/javascript">
+(function($) {
+  $("#title_set-group .inline-related").stackedFormset({
+    prefix: 'title_set',
+    adminStaticPrefix: '/static/admin/',
+    deleteText: "Remove",
+    addText: "Add another Title"
+  });
+})(django.jQuery);
+</script>
+
+
+    
+<div class="inline-group" id="sequence_set-group">
+  <h2>Sequences</h2>
+<input id="id_sequence_set-TOTAL_FORMS" name="sequence_set-TOTAL_FORMS" type="hidden" value="3" /><input id="id_sequence_set-INITIAL_FORMS" name="sequence_set-INITIAL_FORMS" type="hidden" value="2" /><input id="id_sequence_set-MIN_NUM_FORMS" name="sequence_set-MIN_NUM_FORMS" type="hidden" value="0" /><input id="id_sequence_set-MAX_NUM_FORMS" name="sequence_set-MAX_NUM_FORMS" type="hidden" value="1000" />
+
+
+<div class="inline-related has_original" id="sequence_set-0">
+  <h3><b>Sequence:</b>&nbsp;<span class="inline_label">Sequence listing file1.xml / seq 1</span>
+      
+    <span class="delete"><input id="id_sequence_set-0-DELETE" name="sequence_set-0-DELETE" type="checkbox" /> <label class="vCheckboxLabel inline" for="id_sequence_set-0-DELETE">Delete</label></span>
+  </h3>
+  
+  
+    <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-sequenceIdNo">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-0-sequenceIdNo">SEQ. ID. NO.</label>
+                        
+                            <input class="vIntegerField" id="id_sequence_set-0-sequenceIdNo" name="sequence_set-0-sequenceIdNo" type="text" value="1" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-length">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-0-length">Length:</label>
+                        
+                            <input class="vIntegerField" id="id_sequence_set-0-length" name="sequence_set-0-length" type="text" value="17" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-moltype">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-0-moltype">Molecule type:</label>
+                        
+                            <select id="id_sequence_set-0-moltype" name="sequence_set-0-moltype">
+<option value="">---------</option>
+<option value="DNA" selected="selected">DNA</option>
+<option value="RNA">RNA</option>
+<option value="AA">AA</option>
+</select>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-division">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-0-division">Division:</label>
+                        
+                            <input class="vTextField" id="id_sequence_set-0-division" maxlength="3" name="sequence_set-0-division" type="text" value="PAT" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-otherSeqId">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-0-otherSeqId">Other seq ID:</label>
+                        
+                            <input class="vTextField" id="id_sequence_set-0-otherSeqId" maxlength="100" name="sequence_set-0-otherSeqId" type="text" value="-" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-residues">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-0-residues">Residues:</label>
+                        
+                            <textarea class="vLargeTextField" cols="40" id="id_sequence_set-0-residues" name="sequence_set-0-residues" rows="10">
+agtcacactttcattca</textarea>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+  
+  <input id="id_sequence_set-0-id" name="sequence_set-0-id" type="hidden" value="15" />
+  <input id="id_sequence_set-0-sequenceListing" name="sequence_set-0-sequenceListing" type="hidden" value="3" />
+</div><div class="inline-related has_original" id="sequence_set-1">
+  <h3><b>Sequence:</b>&nbsp;<span class="inline_label">Sequence listing file1.xml / seq 2</span>
+      
+    <span class="delete"><input id="id_sequence_set-1-DELETE" name="sequence_set-1-DELETE" type="checkbox" /> <label class="vCheckboxLabel inline" for="id_sequence_set-1-DELETE">Delete</label></span>
+  </h3>
+  
+  
+    <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-sequenceIdNo">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-1-sequenceIdNo">SEQ. ID. NO.</label>
+                        
+                            <input class="vIntegerField" id="id_sequence_set-1-sequenceIdNo" name="sequence_set-1-sequenceIdNo" type="text" value="2" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-length">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-1-length">Length:</label>
+                        
+                            <input class="vIntegerField" id="id_sequence_set-1-length" name="sequence_set-1-length" type="text" value="10" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-moltype">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-1-moltype">Molecule type:</label>
+                        
+                            <select id="id_sequence_set-1-moltype" name="sequence_set-1-moltype">
+<option value="">---------</option>
+<option value="DNA">DNA</option>
+<option value="RNA">RNA</option>
+<option value="AA" selected="selected">AA</option>
+</select>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-division">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-1-division">Division:</label>
+                        
+                            <input class="vTextField" id="id_sequence_set-1-division" maxlength="3" name="sequence_set-1-division" type="text" value="PAT" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-otherSeqId">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-1-otherSeqId">Other seq ID:</label>
+                        
+                            <input class="vTextField" id="id_sequence_set-1-otherSeqId" maxlength="100" name="sequence_set-1-otherSeqId" type="text" value="-" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-residues">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-1-residues">Residues:</label>
+                        
+                            <textarea class="vLargeTextField" cols="40" id="id_sequence_set-1-residues" name="sequence_set-1-residues" rows="10">
+MTGGRASERT</textarea>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+  
+  <input id="id_sequence_set-1-id" name="sequence_set-1-id" type="hidden" value="16" />
+  <input id="id_sequence_set-1-sequenceListing" name="sequence_set-1-sequenceListing" type="hidden" value="3" />
+</div><div class="inline-related" id="sequence_set-2">
+  <h3><b>Sequence:</b>&nbsp;<span class="inline_label">#3</span>
+      
+    
+  </h3>
+  
+  
+    <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-sequenceIdNo">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-2-sequenceIdNo">SEQ. ID. NO.</label>
+                        
+                            <input class="vIntegerField" id="id_sequence_set-2-sequenceIdNo" name="sequence_set-2-sequenceIdNo" type="text" value="0" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-length">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-2-length">Length:</label>
+                        
+                            <input class="vIntegerField" id="id_sequence_set-2-length" name="sequence_set-2-length" type="text" value="0" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-moltype">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-2-moltype">Molecule type:</label>
+                        
+                            <select id="id_sequence_set-2-moltype" name="sequence_set-2-moltype">
+<option value="" selected="selected">---------</option>
+<option value="DNA">DNA</option>
+<option value="RNA">RNA</option>
+<option value="AA">AA</option>
+</select>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-division">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-2-division">Division:</label>
+                        
+                            <input class="vTextField" id="id_sequence_set-2-division" maxlength="3" name="sequence_set-2-division" type="text" value="PAT" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-otherSeqId">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-2-otherSeqId">Other seq ID:</label>
+                        
+                            <input class="vTextField" id="id_sequence_set-2-otherSeqId" maxlength="100" name="sequence_set-2-otherSeqId" type="text" value="-" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-residues">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-2-residues">Residues:</label>
+                        
+                            <textarea class="vLargeTextField" cols="40" id="id_sequence_set-2-residues" name="sequence_set-2-residues" rows="10">
+</textarea>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+  
+  <input id="id_sequence_set-2-id" name="sequence_set-2-id" type="hidden" />
+  <input id="id_sequence_set-2-sequenceListing" name="sequence_set-2-sequenceListing" type="hidden" value="3" />
+</div><div class="inline-related empty-form last-related" id="sequence_set-empty">
+  <h3><b>Sequence:</b>&nbsp;<span class="inline_label">#4</span>
+      
+    
+  </h3>
+  
+  
+    <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-sequenceIdNo">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-__prefix__-sequenceIdNo">SEQ. ID. NO.</label>
+                        
+                            <input class="vIntegerField" id="id_sequence_set-__prefix__-sequenceIdNo" name="sequence_set-__prefix__-sequenceIdNo" type="text" value="0" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-length">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-__prefix__-length">Length:</label>
+                        
+                            <input class="vIntegerField" id="id_sequence_set-__prefix__-length" name="sequence_set-__prefix__-length" type="text" value="0" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-moltype">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-__prefix__-moltype">Molecule type:</label>
+                        
+                            <select id="id_sequence_set-__prefix__-moltype" name="sequence_set-__prefix__-moltype">
+<option value="" selected="selected">---------</option>
+<option value="DNA">DNA</option>
+<option value="RNA">RNA</option>
+<option value="AA">AA</option>
+</select>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-division">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-__prefix__-division">Division:</label>
+                        
+                            <input class="vTextField" id="id_sequence_set-__prefix__-division" maxlength="3" name="sequence_set-__prefix__-division" type="text" value="PAT" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-otherSeqId">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-__prefix__-otherSeqId">Other seq ID:</label>
+                        
+                            <input class="vTextField" id="id_sequence_set-__prefix__-otherSeqId" maxlength="100" name="sequence_set-__prefix__-otherSeqId" type="text" value="-" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-residues">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sequence_set-__prefix__-residues">Residues:</label>
+                        
+                            <textarea class="vLargeTextField" cols="40" id="id_sequence_set-__prefix__-residues" name="sequence_set-__prefix__-residues" rows="10">
+</textarea>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+  
+  <input id="id_sequence_set-__prefix__-id" name="sequence_set-__prefix__-id" type="hidden" />
+  <input id="id_sequence_set-__prefix__-sequenceListing" name="sequence_set-__prefix__-sequenceListing" type="hidden" value="3" />
+</div>
+</div>
+
+<script type="text/javascript">
+(function($) {
+  $("#sequence_set-group .inline-related").stackedFormset({
+    prefix: 'sequence_set',
+    adminStaticPrefix: '/static/admin/',
+    deleteText: "Remove",
+    addText: "Add another Sequence"
+  });
+})(django.jQuery);
+</script>
+
+
+
+
+
+
+
+<div class="submit-row">
+<input type="submit" value="Save" class="default" name="_save" />
+
+    
+    <p class="deletelink-box"><a href="/admin/creator/sequencelisting/3/delete/" class="deletelink">Delete</a></p>
+
+
+<input type="submit" value="Save and add another" name="_addanother" />
+<input type="submit" value="Save and continue editing" name="_continue" />
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+(function($) {
+    var field;
+
+
+})(django.jQuery);
+</script>
+
+
+</div>
+</form></div>
+
+        
+        <br class="clear" />
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>
+

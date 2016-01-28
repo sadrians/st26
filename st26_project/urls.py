@@ -8,7 +8,7 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^creator/', include('creator.urls')),
+    url(r'^sequencelistings/', include('sequencelistings.urls', namespace='sequencelistings')),
 )
 
 if settings.DEBUG:
